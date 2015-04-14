@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FirstFloor.ModernUI.Windows.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,9 +17,9 @@ using System.Windows.Shapes;
 namespace bahari
 {
     /// <summary>
-    /// Interaction logic for AboutUs.xaml
+    /// Interaction logic for SplitPage1.xaml
     /// </summary>
-    public partial class AboutUs : UserControl
+    public partial class AboutUs : ModernWindow
     {
         public AboutUs()
         {

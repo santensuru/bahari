@@ -48,10 +48,15 @@
                     
 
                 </Grid>
-                <Grid Grid.Row="3" Grid.Column="0" Background="Transparent" ></Grid>
+                <Grid Grid.Row="3" Grid.Column="0" Background="Transparent" >
+                    <!--<DockPanel>
+                        <Frame x:Name="_mainFrame" />
+                    </DockPanel>-->
+                </Grid>
             </Grid>
             <!--<TextBlock Text="MODERN UI FOR WPF" Style="{StaticResource Heading2}" />
             <TextBlock Text="Your content here" />-->
+            
         </StackPanel>
     </ScrollViewer>
 </mui:ModernWindow>
